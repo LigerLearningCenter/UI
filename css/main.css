@@ -1,23 +1,8 @@
-button {
-	width: 200px;
-	height: 50px;
-	margin-right: 54px;
-	padding: 15px;
-	margin-bottom: 20px;
-	background-color: #F0FFFF;
-	border-radius: 10px;
-}
-
-#AS {
-	position: absolute;
-	top: 90%;
-	left: 250px;
-}
-
 body {
 	margin: 0;
 }
 
+/* background */
 .stripe {
 	width: 14.25%;
 	height: 100%;
@@ -29,4 +14,29 @@ body {
 #background {
 	display: flex;
 	height: 100vh;
+}
+
+/* menu */
+
+button {
+	width: 	20vw;
+	height: 50px;
+
+	padding: 5px;
+
+	margin-right: 5vh;
+	margin-bottom: 20px;
+
+	background-color: #F0FFFF;
+	border-radius: 10px;
+
+	text-transform: uppercase;
+
+	border: none;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
