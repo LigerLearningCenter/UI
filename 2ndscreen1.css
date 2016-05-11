@@ -1,14 +1,46 @@
 button{
-	width: 200px;
-	height: 50px;
-	margin-right: 54px; 
+	border: none;
+	border-radius: 20px;
+    width: 22vw;
+	height: 5vw;
 	padding: 15px;
+	margin-right: 54px; 
 	margin-bottom: 20px; 
 	background-color: #F0FFFF; 
-    border-radius: 10px;
+    font-size: 1.6vw; 
+    text-transform: uppercase;
+    font-weight: bold;
+
+
   }
-#AS{
+#A{
 	position: absolute;
-    top: 90%;
-    left: 250px;
+    top: 65%;
+    left: 140px;
 }
+
+/*position of the text*/
+#B{
+	position: absolute;
+    top: 5%;
+    left: 385px;
+    font-size: 7vw; 
+    font-weight: bold;
+
+
+}
+#C{
+	position: absolute;
+	top: 40%; 
+	left: 380px; 
+	font-size:4vw;  
+}
+#C1{
+	position: absolute;
+	top: 45%; 
+	left:355px; 
+	font-size: 6vw;
+	 
+}
+
+         
