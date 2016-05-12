@@ -1,59 +1,80 @@
 button{
 	border: none;
 	border-radius: 20px;
+
     width: 22vw;
 	height: 5vw;
+	
 	padding: 15px;
+	
 	margin-right: 54px; 
 	margin-bottom: 20px; 
+	
 	background-color: #F0FFFF; 
+    
     font-size: 1.6vw; 
     text-transform: uppercase;
     font-weight: bold;
-
-
-  }
-#A{
+}
+/*button's position*/
+#button-click{
 	position: absolute;
     top: 65%;
-    left: 140px;
+    left: 180px;
 }
 
-/*position of the text*/
-#B{
-	position: absolute;
-    top: 5%;
-    left: 385px;
-    font-size: 7vw; 
-    font-weight: bold;
-
-
-}
 
 /*position of the text*/
 #icon img {
 	position: absolute;
-    top: 25px;
-    left: 25px;	
+    top: 30px;
+    left: 30px;	
     width: 50px;
     height: 50px;
-    border: 1px solid red;/*
-    background-image: url("audio_on_white-01.png");*/
+ }
+#officon img { 
+	position: absolute;
+    top: 30px;
+    left: 30px;	
+    width: 50px;
+    height: 50px;
+    opacity: 0; 
 }
 
+/*position of the text*/
+#Main-Text{
+	position: absolute;
+    top: 5%;
+    left: 445px;
+    font-size: 7vw; 
+    font-weight: bold;
 
-#C{
+}
+
+#Subtittle{
 	position: absolute;
 	top: 40%; 
-	left: 380px; 
+	left: 420px; 
 	font-size:4vw;  
 }
-#C1{
+#Subtittle1{
 	position: absolute;
-	top: 45%; 
-	left:350px; 
-	font-size: 6vw;
+	top: 47%; 
+	left:365px; 
+	font-size: 5vw;
 	 
 }
-
-         
+#button2 img {
+	position: absolute;
+    top: 30px;
+    left: 30px;	
+    width: 50px;
+    height: 50px;
+}
+#button1 img {
+	position: absolute;
+    top: 30px;
+    left: 30px;	
+    width: 50px;
+    height: 50px;
+} 

@@ -7,6 +7,8 @@
 
 
 <link rel="stylesheet" type="text/css" href="2ndscreen1.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+
 <body>
  <!-- main background -->
         <style type="text/css">
@@ -55,7 +57,7 @@
        
 
 <body>
-    <div id= "A">
+    <div id= "button-click">
     <button type="button" >start</button>
     <button type="button" >load</button>
     <button type="button" >tutorial</button>     
@@ -63,39 +65,51 @@
     <button type="button" >about liger</button>
     <button type="button">about cambodia</button>
     </div>
-
-    <!-- Icon -->
-     <div id= "icon">
-    <img src="audio_on_white-01.png"> 
-    </div>
-   
+ 
     <!-- Text-->
-     <div id= "B">
+     <div id= "Main-Text">
     <p>Future Lab</p>
     </div>
-    <div id= "C">
+    <div id= "Subtittle">
     <sub>Build a great country for the</sub><br>
     </div>
 
-    <div id= "C1">
+    <div id= "Subtittle1">
     <sub><sub>100th independence anniversary!</sub> 
     </div>
 
-<!-- volume -->
-    <div id= "volume">
-        <button1 onclick="setHalfVolume()" type="button"></button>
-        <button2 onclick="setFullVolume()" type="button">High</button>
+<!-- Icon -->
+ <script type="text/javascript">
+    $( "#icon" ).click(function() {
+  $( "#officon" ).mouseenter();
+}); 
+    </script>
+     <div id= "icon">
+        <img src="audio_on_white-01.png">
+</div>
+    <div id= "officon">
+        <img src="mute_audio-_white-01.png">
+    </div>
+   
+<!-- 
+    <button onclick= "setHalfVolume()"></button>
+    <button ></button>
+ -->
 
-    <style type="text/css">
-        #volume{
-            height: 5px; 
-            width: 10px; 
-            position: absolute;
-            top: 10%; 
-            left: 20px; 
-        }
+
+}
+    <!-- 
+    <button1 onclick="setHalfVolume()" type="audio/mpeg"></button1>
+    <button2 onclick="setFullVolume()" type="audio/ogg"></button2>
+ -->
     </style>
       </div>
+<!-- 
+      <audio controls preload="none">
+            <source src="{$base_url}audio/pitbull.mp3" type="audio/mpeg">
+            <source src="{$base_url}audio/music.ogg" type="audio/ogg">
+        </audio>
+ -->
 
 
 
