@@ -23,6 +23,7 @@ button{
     left: 180px;
 }
 
+<<<<<<< HEAD
 
 /*position of the text*/
 #icon img {
@@ -50,7 +51,16 @@ button{
     font-weight: bold;
 
 }
+/*position of the text*/
+#Subtittle{
+	position: absolute;
+    top: 5%;
+    left: 385px;
+    font-size: 7vw; 
+    font-weight: bold;
 
+
+}
 #Subtittle{
 	position: absolute;
 	top: 40%; 
@@ -59,9 +69,15 @@ button{
 }
 #Subtittle1{
 	position: absolute;
+<<<<<<< HEAD
 	top: 47%; 
 	left:365px; 
 	font-size: 5vw;
+=======
+	top: 45%; 
+	left:355px; 
+	font-size: 6vw;
+>>>>>>> parent of b707629... Merge remote-tracking branch 'origin/master'
 	 
 }
 #button2 img {
