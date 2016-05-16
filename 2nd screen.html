@@ -10,6 +10,11 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
 
 <body>
+    <script src= "https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js">
+       $(window).resize(function() {
+  causeRepaintsOn.css("z-index", 1);
+});
+       </script>
  <!-- main background -->
         <style type="text/css">
         body {
@@ -79,17 +84,21 @@
     </div>
 
 <!-- Icon -->
- <script type="text/javascript">
-    $( "#icon" ).click(function() {
-  $( "#officon" ).mouseenter();
+ <script src="https://code.jquery.com/jquery-1.10.2.js">
+    $( "p" ).click(function()) {
+  $(this).popUp("#officon");
 });
     </script>
      <div id= "icon">
         <img src="audio_on_white-01.png">
-</div>
+    </div>
     <div id= "officon">
         <img src="mute_audio-_white-01.png">
     </div>
+    <div id= "stop-icon">
+        <img src="play_white-01.png">
+    </div>
+
    
 <!-- 
     <button onclick= "setHalfVolume()"></button>
