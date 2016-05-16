@@ -49,20 +49,22 @@ button{
     left: 445px;
     font-size: 7vw; 
     font-weight: bold;
+    color: white;
 
 }
 #Subtittle{
 	position: absolute;
 	top: 40%; 
 	left: 420px; 
-	font-size:4vw;  
+	font-size:4vw;
+    color: white;  
 }
 #Subtittle1{
 	position: absolute;
 	top: 48%; 
 	left:365px; 
 	font-size: 5vw;
-	 
+	color: white;
 }
 #icon img {
 	position: absolute;
