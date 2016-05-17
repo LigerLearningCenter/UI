@@ -27,7 +27,7 @@ button{
     #Main-Text{
     position: absolute;
     top: 5%;
-    left: 445px;
+    left: 33vw;
     font-size: 7vw;
     font-weight: bold;
     color: white;
@@ -35,14 +35,14 @@ button{
     #Subtittle{
     position: absolute;
     top: 40%;
-    left: 425px;
+    left: 30vw;
     font-size:4vw;
     color: white;
     }
     #Subtittle1{
     position: absolute;
     top: 48%;
-    left:355px;
+    left:25vw;
     font-size: 4.3vw;
     color: white;
     }
