@@ -40,7 +40,8 @@ body {
 #menu {
     position: absolute;
     top: 65%;
-    left: 27vh;
+    left:6vw;
+    right:6vw; 
 }
 
 #menu button {
@@ -55,6 +56,7 @@ body {
     text-transform: uppercase;
     font-weight: bold;
     color: #2980B9;
+    line-height: 3; 
 }
 
 /* Header */
@@ -80,6 +82,8 @@ body {
     position: absolute;
     top: 30px;
     left: 3vw;
+    width:5vw; 
+    height:5vw;
 }
 #officon {
     position: absolute;

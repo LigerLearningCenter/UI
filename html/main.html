@@ -36,8 +36,8 @@
 		
 		<img id="icon" src="../icon/auto-defult-small.png" data-selected="false">
 		<!-- <img id="officon" src="../icon/auto-muted-white.png"> -->
-		<img id="play-icon" src="../icon/auto-play-white.png" data-selected="false">
-		<!-- <im id="pause" scr="../icon/pause-white.png"> -->
+		<img id="play-icon" src="../icon/auto-play-white.png">
+		
 		<script type="text/javascript">
 			$("#icon").click(function() {
 				console.log("click");
@@ -46,18 +46,6 @@
 					$(this).attr("data-selected", "true");					
 				} else {
 					$(this).attr("src", "../icon/auto-defult-small.png");
-					$(this).attr("data-selected", "false");										
-				}
-			});
-		</script>
-		<script type="text/javascript">
-			$("#play-icon").click(function() {
-				console.log("click");
-				if ($(this).attr("data-selected") == "false") {
-					$(this).attr("src", "../icon/pause-white.png");
-					$(this).attr("data-selected", "true");					
-				} else {
-					$(this).attr("src", "../icon/auto-play-white.png");
 					$(this).attr("data-selected", "false");										
 				}
 			});
