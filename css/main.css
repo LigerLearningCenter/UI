@@ -39,8 +39,12 @@ body {
 /* Menu */
 #menu {
     position: absolute;
-    top: 65%;
-    left: 27vh;
+    top: 65vh;
+    left: 0vh;
+    right: 0vh;
+    padding-left: 12%;
+
+
 }
 
 #menu button {
@@ -48,13 +52,15 @@ body {
     border-radius: 20px;
     width: 22vw;
     height: 5vw;
-    margin-right: 54px;
-    margin-bottom: 20px;
+    margin-right: 5vw;
+    margin-bottom: 2.5vw;
     background-color: #F0FFFF;
     font-size: 1.6vw;
     text-transform: uppercase;
     font-weight: bold;
     color: #2980B9;
+
+
 }
 
 /* Header */
