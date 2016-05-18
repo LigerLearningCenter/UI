@@ -1,80 +1,66 @@
 <html>
+
     <head>
-        <title>5th Screen</title>
+        <title>5th</title>
+        <link rel="stylesheet" type="text/css" href="../css/main.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
     </head>
-    <link rel="stylesheet" type="text/css" href="../css/main.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
     <body>
-        <script src= "https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js">
-        $(window).resize(function() {
+        <script type="text/javascript">
+            $(window).resize(function() {
         causeRepaintsOn.css("z-index", 1);
         });
         </script>
-        
-        <!-- main background -->
-        <style type="text/css">
-        
-        body {
-        margin: 0;
-        }
-        .stripe {
-        width: 14.25%;
-        height: 100%;
-        display: inline-block;
-        margin: 0;
-        padding: 0;
-        }
-        #background {
-        display: flex;
-        height: 100vh;
-        }
-        </style>
         <div id="background">
-            <div class="stripe" style="background-color: #474747;"></div>
-            <div class="stripe" style="background-color: #e9dc68;"></div>
-            <div class="stripe" style="background-color: #e55c4c;"></div>
-            <div class="stripe" style="background-color: #a85eb6;"></div>
-            <div class="stripe" style="background-color: #634a81;"></div>
-            <div class="stripe" style="background-color: #3196de;"></div>
-            <div class="stripe" style="background-color: #50efbb;"></div>
+            <div id="stripe1" class="stripe"></div>
+            <div id="stripe2" class="stripe"></div>
+            <div id="stripe3" class="stripe"></div>
+            <div id="stripe4" class="stripe"></div>
+            <div id="stripe5" class="stripe"></div>
+            <div id="stripe6" class="stripe"></div>
+            <div id="stripe7" class="stripe"></div>
+        </div>
+        <div id="menu">
+            <button>resume</button>
+            <button>save</button>
+            <button>load</button>
+            <button>quit</button>
+            <button>about liger</button>
+            <button>about cambodia</button>
         </div>
         
-        <div id= "button-click">
-            <button type="button" >Resume</button>
-            <button type="button" >save</button>
-            <button type="button" >load</button>
-            <button type="button" >quit</button>
-            <button type="button" >about liger</button>
-            <button type="button">about cambodia</button>
+        <div id="header">
+            <h1>Future Lab</h1><h2>Build a great country for the<br />
+            100th independence anniversary!</h2>
         </div>
         
-        <!-- Text-->
-        <div id= "Main-Text">
-            <p>Future Lab</p>
-        </div>
-        <div id= "Subtittle">
-            <sub>Build a great country for the</sub><br>
-        </div>
-        
-        <div id= "Subtittle1">
-            <sub>100th independence anniversary!</sub>
-        </div>
-        <!-- Icon -->
-        <div id= "icon">
-            <img src="../icon/auto-defult.png">
-        </div>
-        <div id= "officon">
-            <img src="../icon/auto-muted-white.png">
-        </div>
-        <div id= "play-icon">
-            <img src="../icon/auto-play-white.png">
-        </div>
-        
-        <script src="https://code.jquery.com/jquery-1.10.2.js">
-        $( #icon).click(function()) {
-        $(this).popUp(#officon);
-        });
+        <img id="icon" src="../icon/auto-defult-small.png" data-selected="false">
+        <!-- <img id="officon" src="../icon/auto-muted-white.png"> -->
+        <img id="play-icon" src="../icon/auto-play-white-small.png" data-selected="false">
+        <!-- <img id="pause" src="../icon/pause-white.png"> -->
+        <script type="text/javascript">
+            $("#icon").click(function() {
+                console.log("click");
+                if ($(this).attr("data-selected") == "false") {
+                    $(this).attr("src", "../icon/auto-muted-white-small.png");
+                    $(this).attr("data-selected", "true");                  
+                } else {
+                    $(this).attr("src", "../icon/auto-defult-small.png");
+                    $(this).attr("data-selected", "false");                                     
+                }
+            });
+            $("#play-icon").click(function() {
+                console.log("click");
+                if ($(this).attr("data-selected") == "false") {
+                    $(this).attr("src", "../icon/pause-white-small.png");
+                    $(this).attr("data-selected", "true");                  
+                } else {
+                    $(this).attr("src", "../icon/auto-play-white-small.png");
+                    $(this).attr("data-selected", "false");                                     
+                }
+            });
         </script>
         
     </body>
+    
 </html>
