@@ -1,72 +1,100 @@
-button{
+body {
+    margin: 0;
+}
+
+/* Background */
+.stripe {
+    width: 14.25%;
+    height: 100%;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+#background {
+    display: flex;
+    height: 100vh;
+}
+#stripe1 {
+    background-color: #474747;
+}
+#stripe2 {
+    background-color: #e9dc68;
+}
+#stripe3 {
+    background-color: #e55c4c;
+}
+#stripe4 {
+    background-color: #a85eb6;
+}
+#stripe5 {
+    background-color: #634a81;
+}
+#stripe6 {
+    background-color: #3196de;
+}
+#stripe7 {
+    background-color: #50efbb;
+}
+
+/* Menu */
+#menu {
+    position: absolute;
+    top: 65%;
+    left: 27vh;
+}
+
+#menu button {
     border: none;
     border-radius: 20px;
     width: 22vw;
     height: 5vw;
-
-    padding: 15px;
-
+    padding: none;
     margin-right: 54px;
     margin-bottom: 20px;
-
     background-color: #F0FFFF;
-
     font-size: 1.6vw;
     text-transform: uppercase;
     font-weight: bold;
-    color: #2980B9; 
-    }
+    color: #2980B9;
+}
 
-    /*button's position*/
-    #button-click{
+/* Header */
+#header {
     position: absolute;
-    top: 65%;
-    left: 180px;
-    }
-    /*position of the text*/
-    #Main-Text{
-    position: absolute;
-    top: 5%;
-    left: 33vw;
-    font-size: 7vw;
+    top: 20vh;
+    left: 0vh;
+    right: 0vh;
+    text-align: center;
     font-weight: bold;
     color: white;
-    }
-    #Subtittle{
-    position: absolute;
-    top: 40%;
-    left: 30vw;
-    font-size:4vw;
-    color: white;
-    }
-    #Subtittle1{
-    position: absolute;
-    top: 48%;
-    left:25vw;
-    font-size: 4.3vw;
-    color: white;
-    }
+}
+#header h1 {
+    font-size: 5vw;
+    line-height: 0.5;
+}
+#header h2 {
+    font-size: 3vw;
+}
 
-    /*icon*/
-    #icon img {
+/*icon*/
+#icon {
     position: absolute;
     top: 30px;
     left: 3vw;
-    width: 5vw;
-    height: 5vw;
-    }
-    #officon img {
+}
+#officon {
     position: absolute;
     top: 30px;
     left: 30px;
     width: 9vw;
     height: 9vw;
-    opacity: 0; 
-    }
-    #play-icon img {
+    opacity: 0;
+}
+#play-icon {
     position: absolute;
     top: 30px;
     left: 92vw;
     width: 5vw;
     height: 5vw;
-    }
+}
+
