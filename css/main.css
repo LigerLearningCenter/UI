@@ -48,7 +48,6 @@ body {
     border-radius: 20px;
     width: 22vw;
     height: 5vw;
-    padding: none;
     margin-right: 54px;
     margin-bottom: 20px;
     background-color: #F0FFFF;
@@ -93,7 +92,7 @@ body {
 #play-icon {
     position: absolute;
     top: 30px;
-    left: 92vw;
+    left: 90vw;
     width: 5vw;
     height: 5vw;
 }
