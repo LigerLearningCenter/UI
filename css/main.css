@@ -4,7 +4,7 @@ body {
 
 /* Background */
 .stripe {
-    width: 14.25%;
+    width: 15%;
     height: 100%;
     display: inline-block;
     margin: 0;
@@ -14,6 +14,7 @@ body {
 #background {
     display: flex;
     height: 100vh;
+
 }
 #stripe1 {
     background-color: #474747;
@@ -45,7 +46,16 @@ body {
     right: 0vh;
     padding-left: 12%;
 }
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
 
+  50% {
+    opacity: 1;
+  }
+
+}
 #menu button {
     border: none;
     border-radius: 20px;
@@ -58,9 +68,22 @@ body {
     text-transform: uppercase;
     font-weight: bold;
     color: #2980B9;
+    animation-duration: 2s;
+    animation-name: fadeIn;
 }
 
 /* Header */
+@keyframes shake {
+  from {
+    opacity: 0;
+    transform: scale3d(.3, .3, .3);
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+}
 #header {
     position: absolute;
     top: 20vh;
@@ -69,6 +92,9 @@ body {
     text-align: center;
     color: white;
     font-family: arial;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+    animation-name: shake;
 }
 #header h1 {
     font-size: 6vw;
@@ -82,12 +108,27 @@ body {
 }
 
 /*icon*/
+@keyframes zoomIn {
+  from {
+    opacity: 0;
+    transform: scale3d(.3, .3, .3);
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+}
 #icon {
     position: absolute;
     top: 30px;
     left: 3vw;
     width:5vw; 
     height:5vw;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+    animation-name: shake;
+
 }
 #officon {
     position: absolute;
@@ -97,12 +138,26 @@ body {
     height: 9vw;
     opacity: 0;
 }
+@keyframes zoomIn {
+  from {
+    opacity: 0;
+    transform: scale3d(.3, .3, .3);
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+}
 #play-icon {
     position: absolute;
     top: 30px;
     left: 90vw;
     width: 5vw;
     height: 5vw;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+    animation-name: shake;
 }
 
  @keyframes iconAnimate {
