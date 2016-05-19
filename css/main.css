@@ -107,7 +107,7 @@ body {
    font-weight: normal;
 }
 
-/*icon*/
+icon
 @keyframes zoomIn {
   from {
     opacity: 0;
@@ -119,6 +119,18 @@ body {
   }
 
 }
+@-webkit-keyframes zoomIn {
+from {
+    opacity: 0;
+    transform: scale3d(.3, .3, .3);
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+}
+
 #icon {
     position: absolute;
     top: 30px;
@@ -127,7 +139,7 @@ body {
     height:5vw;
     animation-duration: 2s;
     animation-fill-mode: both;
-    animation-name: shake;
+    animation-name: rubberBand;  
 
 }
 #officon {
@@ -149,6 +161,19 @@ body {
   }
 
 }
+@-webkit-keyframes zoomIn {
+from {
+    opacity: 0;
+    transform: scale3d(.3, .3, .3);
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+}
+
+
 #play-icon {
     position: absolute;
     top: 30px;
@@ -157,31 +182,5 @@ body {
     height: 5vw;
     animation-duration: 2s;
     animation-fill-mode: both;
-    animation-name: shake;
-}
-
- @keyframes iconAnimate {
-  from {
-    -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
-    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
-  }
-
-  10% {
-    opacity: 0;
-    -webkit-transform: scale3d(.3, .3, .3);
-    transform: scale3d(.3, .3, .3);
-  }
-
-  20% {
-    -webkit-transform: scale3d(1.1, 1.1, 1.1);
-    transform: scale3d(1.1, 1.1, 1.1);
-  }
-}
-  .iconAnimate{
-  animation-name: jello;
-  transform-origin: center;
-}
-  .animated {
-  animation-duration: 5s;
-  animation-fill-mode: both;
+    animation-name: rubberBand;
 }
