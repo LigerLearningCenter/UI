@@ -3,13 +3,38 @@ body {
 }
 
 /* Background */
+
+
 .stripe {
     width: 15%;
     height: 100%;
     display: inline-block;
     margin: 0;
-    padding: 0;
+    padding: 0; 
 }
+@keyframes {
+  from {
+    opacity: 0;
+  }
+
+  10% {
+    opacity: 1;
+  }
+
+}
+
+@-webkit-keyframes {
+from {
+    opacity: 0;
+    transform: scale3d(.3, .3, .3);
+  }
+
+  10% {
+    opacity: 1;
+  }
+
+}
+
 
 #background {
     display: flex;
@@ -18,25 +43,41 @@ body {
 }
 #stripe1 {
     background-color: #474747;
+    animation-duration: 1s;
+    animation-name: zoomIn; 
 }
 #stripe2 {
     background-color: #e9dc68;
+    animation-duration: 2s;
+    animation-name: zoomIn; 
 }
 #stripe3 {
     background-color: #e55c4c;
+     animation-duration: 3s;
+    animation-name: zoomIn; 
 }
 #stripe4 {
     background-color: #a85eb6;
+     animation-duration: 5s;
+    animation-name: zoomIn; 
 }
 #stripe5 {
     background-color: #634a81;
+    animation-duration: 6s;
+    animation-name: zoomIn; 
 }
 #stripe6 {
     background-color: #3196de;
+    animation-duration: 7s;
+    animation-name: zoomIn; 
 }
 #stripe7 {
     background-color: #50efbb;
+    animation-duration: 8s;
+    animation-name: zoomIn; 
 }
+
+
 
 /* Menu */
 #menu {
@@ -46,16 +87,11 @@ body {
     right: 0vh;
     padding-left: 12%;
 }
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-
-  50% {
-    opacity: 1;
-  }
-
+#menu:hover{
+  color: blue;
+  
 }
+
 #menu button {
     border: none;
     border-radius: 20px;
@@ -68,22 +104,9 @@ body {
     text-transform: uppercase;
     font-weight: bold;
     color: #2980B9;
-    animation-duration: 2s;
-    animation-name: fadeIn;
 }
 
 /* Header */
-@keyframes shake {
-  from {
-    opacity: 0;
-    transform: scale3d(.3, .3, .3);
-  }
-
-  50% {
-    opacity: 1;
-  }
-
-}
 #header {
     position: absolute;
     top: 20vh;
@@ -92,10 +115,14 @@ body {
     text-align: center;
     color: white;
     font-family: arial;
-    animation-duration: 2s;
+    animation-duration: 2.5s;
     animation-fill-mode: both;
     animation-name: shake;
+
 }
+#header:hover{
+          color: black;
+         }
 #header h1 {
     font-size: 6vw;
     line-height: 0.5;
@@ -107,29 +134,7 @@ body {
    font-weight: normal;
 }
 
-icon
-@keyframes zoomIn {
-  from {
-    opacity: 0;
-    transform: scale3d(.3, .3, .3);
-  }
-
-  50% {
-    opacity: 1;
-  }
-
-}
-@-webkit-keyframes zoomIn {
-from {
-    opacity: 0;
-    transform: scale3d(.3, .3, .3);
-  }
-
-  50% {
-    opacity: 1;
-  }
-
-}
+/*icon*/
 
 #icon {
     position: absolute;
@@ -137,9 +142,6 @@ from {
     left: 3vw;
     width:5vw; 
     height:5vw;
-    animation-duration: 2s;
-    animation-fill-mode: both;
-    animation-name: rubberBand;  
 
 }
 #officon {
@@ -150,29 +152,6 @@ from {
     height: 9vw;
     opacity: 0;
 }
-@keyframes zoomIn {
-  from {
-    opacity: 0;
-    transform: scale3d(.3, .3, .3);
-  }
-
-  50% {
-    opacity: 1;
-  }
-
-}
-@-webkit-keyframes zoomIn {
-from {
-    opacity: 0;
-    transform: scale3d(.3, .3, .3);
-  }
-
-  50% {
-    opacity: 1;
-  }
-
-}
-
 
 #play-icon {
     position: absolute;
@@ -180,7 +159,4 @@ from {
     left: 90vw;
     width: 5vw;
     height: 5vw;
-    animation-duration: 2s;
-    animation-fill-mode: both;
-    animation-name: rubberBand;
 }
