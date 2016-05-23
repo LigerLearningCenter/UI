@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    overflow: hidden;
 }
 
 /* Background */
@@ -12,7 +13,7 @@ body {
     margin: 0;
     padding: 0; 
 }
-@keyframes {
+@keyframes  {
   from {
     opacity: 0;
   }
@@ -44,23 +45,23 @@ from {
 
 #stripe1 {
     background-color: #474747;
-    animation-duration: 1.25s;
+    animation-duration: 0.5s;
     animation-name: fadeInDown; 
 }
 #stripe2 {
     background-color: #e9dc68;
-    animation-duration: 1.75s;
-    animation-name: fadeInUp; 
+    animation-duration: 1s;
+    animation-name: fadeInDown; 
 }
 #stripe3 {
     background-color: #e55c4c;
-     animation-duration: 2.5s;
+     animation-duration: 1.5s;
     animation-name: fadeInDown; 
 }
 #stripe4 {
     background-color: #a85eb6;
-     animation-duration: 2.5s;
-    animation-name: fadeInUp; 
+     animation-duration: 2s;
+    animation-name: fadeInDown; 
 }
 #stripe5 {
     background-color: #634a81;
@@ -69,12 +70,7 @@ from {
 }
 #stripe6 {
     background-color: #3196de;
-    animation-duration: 1.75s;
-    animation-name: fadeInUp; 
-}
-#stripe7 {
-    background-color: #50efbb;
-    animation-duration: 1.25s;
+    animation-duration: 1s;
     animation-name: fadeInDown; 
 }
 #stripe7 {
@@ -82,7 +78,6 @@ from {
     animation-duration: 0.5s;
     animation-name: fadeInDown; 
 }
-
 
 
 /* Menu */
@@ -148,8 +143,8 @@ from {
     left: 3vw;
     width:5vw; 
     height:5vw;
-    animation-name: jello;
-    animation-duration: 2s;
+    animation-name: fadeInDown;
+    animation-duration: offset;
 
 }
 #officon {
@@ -167,6 +162,6 @@ from {
     left: 90vw;
     width: 5vw;
     height: 5vw;
-    animation-name: jello;
-        animation-duration: 2s;
+    animation-name: fadeInDown;
+    animation-duration: offset;
 }
