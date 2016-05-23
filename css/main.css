@@ -41,6 +41,7 @@ from {
     height: 100vh;
 
 }
+
 #stripe1 {
     background-color: #474747;
     animation-duration: 0.5s;
@@ -73,14 +74,14 @@ from {
 }
 #stripe7 {
     background-color: #50efbb;
-    animation-duration: 0.5;
+    animation-duration: 0.5s;
     animation-name: fadeInDown; 
 }
 
 
 
 /* Menu */
-#menu {
+#menu { 
     position: absolute;
     top: 65vh;
     left: 0vh;
@@ -104,7 +105,8 @@ from {
     text-transform: uppercase;
     font-weight: bold;
     color: #2980B9;
-    animation-name: zoomIn;
+    animation-name: bounceInUp;
+    animation-duration: 2.5s;
 }
 
 /* Header */
@@ -118,7 +120,7 @@ from {
     font-family: arial;
     animation-duration: 2.5s;
     animation-fill-mode: both;
-    animation-name: zoomIn;
+    animation-name: bounceInUp;
 
 }
 
@@ -141,6 +143,8 @@ from {
     left: 3vw;
     width:5vw; 
     height:5vw;
+    animation-name: jello;
+    animation-duration: 2s;
 
 }
 #officon {
@@ -149,7 +153,7 @@ from {
     left: 30px;
     width: 9vw;
     height: 9vw;
-    opacity: 0;
+    opacity: 0; 
 }
 
 #play-icon {
@@ -158,4 +162,6 @@ from {
     left: 90vw;
     width: 5vw;
     height: 5vw;
+    animation-name: jello;
+        animation-duration: 2s;
 }
