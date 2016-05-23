@@ -78,13 +78,6 @@ from {
     animation-duration: 1s;
     animation-name: fadeInDown; 
 }
-#stripe7 {
-    background-color: #50efbb;
-    animation-duration: 0.5s;
-    animation-name: fadeInDown; 
-}
-
-
 
 /* Menu */
 #menu { 
