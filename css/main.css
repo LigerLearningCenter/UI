@@ -63,17 +63,17 @@ from {
 }
 #stripe5 {
     background-color: #634a81;
-    animation-duration: 2.5s;
+    animation-duration: 1.5s;
     animation-name: fadeInDown; 
 }
 #stripe6 {
     background-color: #3196de;
-    animation-duration: 3s;
+    animation-duration: 1s;
     animation-name: fadeInDown; 
 }
 #stripe7 {
     background-color: #50efbb;
-    animation-duration: 3.5s;
+    animation-duration: 0.5;
     animation-name: fadeInDown; 
 }
 
@@ -104,6 +104,7 @@ from {
     text-transform: uppercase;
     font-weight: bold;
     color: #2980B9;
+    animation-name: zoomIn;
 }
 
 /* Header */
@@ -117,7 +118,7 @@ from {
     font-family: arial;
     animation-duration: 2.5s;
     animation-fill-mode: both;
-    animation-name: shake;
+    animation-name: zoomIn;
 
 }
 
