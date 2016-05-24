@@ -138,12 +138,6 @@ body {
     top: 30px;
     left: 90vw;
     width: 5vw;
-    height: 5vw;
-<<<<<<< HEAD
     animation-name: bounceInDown;
-        animation-duration: 2.5s;
-=======
-    animation-name: fadeInDown;
-    animation-duration: offset;
->>>>>>> 5c3daefba61b42ff92c87d03b04918ab2dfcd7e1
+    animation-duration: 2.5s;
 }
