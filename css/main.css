@@ -13,29 +13,6 @@ body {
     margin: 0;
     padding: 0; 
 }
-@keyframes  {
-  from {
-    opacity: 0;
-  }
-
-  10% {
-    opacity: 1;
-  }
-
-}
-
-@-webkit-keyframes {
-from {
-    opacity: 0;
-    transform: scale3d(.3, .3, .3);
-  }
-
-  10% {
-    opacity: 1;
-  }
-
-}
-
 
 #background {
     display: flex;
@@ -144,9 +121,9 @@ from {
     left: 3vw;
     width:5vw; 
     height:5vw;
-    animation-name: fadeInDown;
     animation-delay: 1.75s;
     animation-duration: 2s;
+    animation-name: bounceInDown;
 
 }
 #officon {
@@ -164,7 +141,7 @@ from {
     left: 90vw;
     width: 5vw;
     height: 5vw;
-    animation-name: fadeInDown;
+    animation-name: bounceInDown;
     animation-delay: 1.75s;
     animation-duration: 2s;
 }
