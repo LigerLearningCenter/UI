@@ -96,6 +96,7 @@ body {
     color: white;
     font-family: arial;
     animation-duration: 2.5s;
+    animation-delay: .75s;
     animation-fill-mode: both;
     animation-name: bounceInUp;
 
@@ -120,8 +121,9 @@ body {
     left: 3vw;
     width:5vw; 
     height:5vw;
+    animation-delay: 1.75s;
+    animation-duration: 2s;
     animation-name: bounceInDown;
-    animation-duration: 2.5s;
 
 }
 #officon {
@@ -138,6 +140,13 @@ body {
     top: 30px;
     left: 90vw;
     width: 5vw;
+<<<<<<< HEAD
     animation-name: bounceInDown;
     animation-duration: 2.5s;
+=======
+    height: 5vw;
+    animation-name: bounceInDown;
+    animation-delay: 1.75s;
+    animation-duration: 2s;
+>>>>>>> 3d1b8fb8ec1bc4ebb869f69d68098606282888c4
 }
