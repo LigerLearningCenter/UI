@@ -1,16 +1,12 @@
 <html>
 
     <head>
-        <title>4th</title>
+        <title>4thscreen</title>
         <link rel="stylesheet" type="text/css" href="../css/main.css">
+          <link rel="stylesheet" href="../css/animate.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
     </head>
     <body>
-        <script type="text/javascript">
-            $(window).resize(function() {
-        causeRepaintsOn.css("z-index", 1);
-        });
-        </script>
         <div id="background">
             <div id="stripe1" class="stripe"></div>
             <div id="stripe2" class="stripe"></div>
@@ -21,10 +17,10 @@
             <div id="stripe7" class="stripe"></div>
         </div>
         <div id="menu">
-            <button>English</button>
-            <button>Khmer</button>
-            <button>Tutorial</button>
-            <button>Return</button>
+            <button>english</button>
+            <button>khmer</button>
+            <button>tutorial</button>
+            <button>change language</button>
             <button>about liger</button>
             <button>about cambodia</button>
         </div>
@@ -34,8 +30,9 @@
             100th independence anniversary!</h2>
         </div>
         
-        <img id="icon" src="../icon/auto-defult-small.png" data-selected="false">
+        <img id="icon" src="../icon/auto-defult-small.png" data-selected="false" class= "animated iconAnimate">
         <!-- <img id="officon" src="../icon/auto-muted-white.png"> -->
+
         <script type="text/javascript">
             $("#icon").click(function() {
                 console.log("click");
@@ -48,7 +45,7 @@
                 }
             });
         </script>
-        
+
     </body>
     
 </html>
