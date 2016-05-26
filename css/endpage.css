@@ -13,9 +13,7 @@ body {
     margin: 0;
     padding: 0; 
 }
-
-/*Keyframes and Webkit fadeInDown*/
-@keyframes fadeInDown {
+@keyframes  {
   from {
     opacity: 0;
   }
@@ -26,7 +24,7 @@ body {
 
 }
 
-@-webkit-keyframes fadeInDown {
+@-webkit-keyframes {
 from {
     opacity: 0;
     transform: scale3d(.3, .3, .3);
@@ -37,32 +35,6 @@ from {
   }
 
 }
-
-
-/*Keyframes and Webkit bounceInUp*/
-@keyframes bounceInUp {
-  from {
-    opacity: 0;
-  }
-
-  10% {
-    opacity: 1;
-  }
-
-}
-
-@-webkit-keyframes bounceInUp {
-from {
-    opacity: 0;
-    transform: scale3d(.3, .3, .3);
-  }
-
-  10% {
-    opacity: 1;
-  }
-
-}
-
 
 
 #background {
@@ -73,37 +45,37 @@ from {
 
 #stripe1 {
     background-color: #474747;
-    animation-duration: 0.5s;
+    animation-duration: 2s;
     animation-name: fadeInDown; 
 }
 #stripe2 {
     background-color: #e9dc68;
-    animation-duration: 1s;
+    animation-duration: 1.5s;
     animation-name: fadeInDown; 
 }
 #stripe3 {
     background-color: #e55c4c;
-     animation-duration: 1.5s;
+     animation-duration: 1s;
     animation-name: fadeInDown; 
 }
 #stripe4 {
     background-color: #a85eb6;
-     animation-duration: 2s;
+     animation-duration: 0.5s;
     animation-name: fadeInDown; 
 }
 #stripe5 {
     background-color: #634a81;
-    animation-duration: 1.5s;
+    animation-duration: 1s;
     animation-name: fadeInDown; 
 }
 #stripe6 {
     background-color: #3196de;
-    animation-duration: 1s;
+    animation-duration: 1.5s;
     animation-name: fadeInDown; 
 }
 #stripe7 {
     background-color: #50efbb;
-    animation-duration: 0.5s;
+    animation-duration: 2s;
     animation-name: fadeInDown; 
 }
 
