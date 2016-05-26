@@ -64,7 +64,6 @@ from {
 }
 
 
-
 #background {
     display: flex;
     height: 100vh;
@@ -107,7 +106,6 @@ from {
     animation-name: fadeInDown; 
 }
 
-
 /* Menu */
 #menu { 
     position: absolute;
@@ -115,6 +113,7 @@ from {
     left: 0vh;
     right: 0vh;
     padding-left: 12%;
+    animation-duration: 0.5s;
 }
 #menu:hover{
   color: blue;
@@ -147,6 +146,7 @@ from {
     color: white;
     font-family: arial;
     animation-duration: 2.5s;
+    animation-delay: .75s;
     animation-fill-mode: both;
     animation-name: bounceInUp;
 
@@ -171,8 +171,9 @@ from {
     left: 3vw;
     width:5vw; 
     height:5vw;
-    animation-name: fadeInDown;
-    animation-duration: offset;
+    animation-delay: 1.75s;
+    animation-duration: 2s;
+    animation-name: bounceInDown;
 
 }
 #officon {
@@ -190,6 +191,7 @@ from {
     left: 90vw;
     width: 5vw;
     height: 5vw;
-    animation-name: fadeInDown;
-    animation-duration: offset;
+    animation-name: bounceInDown;
+    animation-delay: 1.75s;
+    animation-duration: 2s;
 }
