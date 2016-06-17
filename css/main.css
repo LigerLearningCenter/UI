@@ -113,7 +113,7 @@ from {
     left: 0vh;
     right: 0vh;
     padding-left: 12%;
-    animation-duration: 0.5s;
+    animation-duration: 6s;
 }
 #menu:hover{
   color: blue;
@@ -145,8 +145,8 @@ from {
     text-align: center;
     color: white;
     font-family: arial;
-    animation-duration: 2.5s;
-    animation-delay: .75s;
+    animation-duration: 5s;
+    animation-delay: .5s;
     animation-fill-mode: both;
     animation-name: bounceInUp;
 
